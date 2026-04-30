@@ -30,7 +30,7 @@ import config
 # Page setup
 # ─────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Fresh Pricing in Missouri",
+    page_title="Dynamic Pricing for Perishable Inventory",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -144,7 +144,7 @@ CSS = f"""
         letter-spacing: 0;
         font-weight: 800 !important;
     }}
-    h1 {{ font-size: 3.35rem !important; line-height: 1.02 !important; margin-top: 0.35rem !important; margin-bottom: 0.35rem !important; }}
+    h1 {{ font-size: 2.65rem !important; line-height: 1.08 !important; margin-top: 0.35rem !important; margin-bottom: 0.45rem !important; }}
     h2 {{ font-size: 1.85rem !important; line-height: 1.2 !important; padding-top: 0.5rem !important; }}
     h3 {{ font-size: 1.35rem !important; line-height: 1.3 !important; }}
     h4 {{ font-size: 1.1rem !important; }}
@@ -921,9 +921,9 @@ def render_sidebar():
         # Logo
         st.markdown(
             "<div class='sb-logo'>"
-            "<div class='sb-logo-mark'>FP</div>"
-            "<span class='sb-logo-name'>Fresh Pricing</span>"
-            "<span class='sb-logo-sub'>Missouri · FSE 570</span>"
+            "<div class='sb-logo-mark'>DP</div>"
+            "<span class='sb-logo-name'>Dynamic Pricing</span>"
+            "<span class='sb-logo-sub'>Perishable Inventory · FSE 570</span>"
             "</div>",
             unsafe_allow_html=True,
         )
@@ -972,7 +972,7 @@ def section_welcome():
     manifest = load_manifest()
 
     st.markdown("""
-<h1>Fresh Pricing</h1>
+<h1>Dynamic Pricing for Perishable Inventory</h1>
 <p class='hero-sub'>A data-driven grocery dashboard that knows when to mark something down, and when to leave it alone.</p>
 """, unsafe_allow_html=True)
 
