@@ -45,6 +45,14 @@ env/
 .streamlit/secrets.toml
 
 # ─────────────────────────────────────────────────────────────────────
+# Conda env file is for local setup only. If we push it, Streamlit Cloud
+# tries to use conda (slow + breaks on Prophet). The slim
+# requirements.txt at the repo root is what Cloud should read.
+# ─────────────────────────────────────────────────────────────────────
+code/environment.yml
+environment.yml
+
+# ─────────────────────────────────────────────────────────────────────
 # OS / editor noise
 # ─────────────────────────────────────────────────────────────────────
 .DS_Store
