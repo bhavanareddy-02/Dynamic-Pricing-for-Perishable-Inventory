@@ -1,0 +1,4 @@
+Strategy,Revenue_USD,Profit_USD,Units_Wasted,Sell_Through_Pct,Waste_Pct,Delta_Profit_vs_Base,Forecasted_Demand_Used,Demand_Model,Spoilage_Model
+No Discount,10274040.0,419699.29,567613.1,66.0,33.54,0.0,No,—,—
+Fixed 20%,10220437.64,349286.78,387781.9,75.0,22.92,-70412.51,No,—,—
+Dynamic,11853377.77,1999037.06,284553.9,79.0,16.82,1579337.77,Yes,LightGBM,LightGBM

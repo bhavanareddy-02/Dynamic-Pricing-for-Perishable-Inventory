@@ -1,0 +1,4 @@
+strategy,Total_Revenue,Total_Profit,Total_Waste,Avg_SellThru,Avg_Discount,Waste_Pct,Strategy_Label
+no_discount,4299857.47,-1227438.08,401363.28,0.56,0.0,56.89,No Discount
+fixed_20,4718828.6,-808466.95,289393.26,0.69,0.2,41.02,Fixed 20%
+dynamic,5415239.21,-112056.34,203750.23,0.78,0.21,28.88,Dynamic

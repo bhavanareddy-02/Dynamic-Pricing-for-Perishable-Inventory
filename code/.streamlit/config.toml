@@ -1,0 +1,16 @@
+# Same config as ../.streamlit/config.toml — duplicated here so it's
+# picked up whether you launch streamlit from the repo root OR from code/.
+
+[theme]
+base = "light"
+primaryColor = "#2D5016"
+backgroundColor = "#FAF7F2"
+secondaryBackgroundColor = "#F5F0E8"
+textColor = "#2C2C2C"
+font = "serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false

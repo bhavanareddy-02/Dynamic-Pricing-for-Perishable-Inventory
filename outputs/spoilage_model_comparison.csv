@@ -1,0 +1,5 @@
+Model,ROC_AUC,Brier_Score,F1_Spoiled
+LightGBM,0.8525,0.1535,0.7827
+XGBoost,0.852,0.1543,0.7852
+Random Forest,0.8279,0.1706,0.7665
+Logistic Regression,0.7219,0.2161,0.7074

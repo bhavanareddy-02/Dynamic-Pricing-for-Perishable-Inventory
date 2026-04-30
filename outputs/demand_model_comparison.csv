@@ -1,0 +1,4 @@
+Model,Val_RMSE,Val_MAE,Dir_Accuracy_Pct
+LightGBM,858.38,662.57,62.34
+Prophet,9000000000.0,9000000000.0,0.0
+Holt-Winters,923.19,741.69,47.28

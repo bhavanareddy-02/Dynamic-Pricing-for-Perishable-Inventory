@@ -1,0 +1,18 @@
+{
+  "run_completed_at": "2026-04-26T18:32:41.756464",
+  "winner_demand_model": "LightGBM",
+  "winner_spoilage_model": "LightGBM",
+  "elasticity_map": {
+    "PRODUCE": -0.2293,
+    "MEAT": -0.0553,
+    "PASTRY": -0.2452,
+    "GROCERY": -0.1712,
+    "MEAT-PCKGD": -0.1272
+  },
+  "empirical_waste_fraction": 0.17265946284142356,
+  "n_holdout_dates": 60,
+  "n_holdout_rows": 6686,
+  "ran_prophet": false,
+  "ran_dunn": true,
+  "n_categories": 8
+}

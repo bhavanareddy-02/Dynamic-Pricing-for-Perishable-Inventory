@@ -1,0 +1,55 @@
+# ─────────────────────────────────────────────────────────────────────
+# Raw datasets — too large for git, redistributed under their own licenses.
+# Anyone running the pipeline pulls them from the original sources:
+#   - Kaggle Perishable Goods Management
+#   - Dunnhumby Complete Journey
+# ─────────────────────────────────────────────────────────────────────
+Datasets/
+**/perishable_goods_management.csv
+**/dunnhumby_The-Complete-Journey/
+
+# Legacy notebooks — kept on disk for reference, not version-controlled
+Code Files/
+
+# Course deliverables that aren't part of the runnable repo
+*.docx
+*.pdf
+*.pptx
+*.mp4
+
+# ─────────────────────────────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.Python
+.venv/
+venv/
+env/
+
+# ─────────────────────────────────────────────────────────────────────
+# Jupyter
+# ─────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─────────────────────────────────────────────────────────────────────
+# Streamlit secrets (never commit)
+# ─────────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ─────────────────────────────────────────────────────────────────────
+# OS / editor noise
+# ─────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

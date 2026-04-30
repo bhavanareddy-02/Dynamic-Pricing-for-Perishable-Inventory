@@ -1,0 +1,16 @@
+# Force light theme that matches the grocery palette in dashboard.py.
+# Without this, Streamlit's auto dark mode breaks our colour scheme.
+
+[theme]
+base = "light"
+primaryColor = "#2D5016"           # produce green — buttons, sliders, links
+backgroundColor = "#FAF7F2"        # cream paper — main app background
+secondaryBackgroundColor = "#F5F0E8"  # parchment — sidebar + cards
+textColor = "#2C2C2C"              # ink — body text
+font = "serif"                     # we override per-element in CSS
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
